@@ -1,8 +1,12 @@
-def line(katz_deli=[])
-  if katz_deli.length ==0
-    puts "The line is currently empty."
-  elsif katz_deli.length < 0 
-    katz_deli.insert(0, "Logan", "Avi", "Spencer")
-    puts "The line is currently: #{number}. #{name}"
-  end
-end
+katz_deli = []
+
+take_a_number(katz_deli, "Ada")
+take_a_number(katz_deli, "Grace")
+take_a_number(katz_deli, "Kent")
+line(katz_deli)
+now_serving(katz_deli)
+line(katz_deli)
+take_a_number(katz_deli, "Matz")
+line(katz_deli)
+now_serving(katz_deli)
+line(katz_deli)
